@@ -23,9 +23,19 @@ function App() {
       {
         condition ?  '맞아요' : null
       }
-      <br/>
+      <br
+        // 이건 주석.
+        // self-closed 태그 내에선 이렇게 작성이 가능하쥐~
+      />
       <div style={style}>
       {condition && '보이면 맞는거야~'}
+      {/*이건 주석이겠지? */}
+      {
+        //그럼 이건 주석이 아닐까? 
+      }
+      //요건 주석이 아니겠지. javascript처럼 인식이 되지 않으니.
+      /** 정리해보면 javascript 형태로 주석을 작성해야 하고, 
+      self-closed tag 내에서만 지원되도록 jsx가 만들어져 있어. */
         </div>
     </Fragment>
   );
