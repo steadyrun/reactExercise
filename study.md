@@ -23,4 +23,6 @@
     5. react 앱을 최초 생성시엔 crete-react-app 이라는 페북에서 만든 도구를 사용하면 편리.
 
 ### 2st day
-    1.     
+    1. 파라미터 넘길 떄는 import하는 곳에서 property 설정하듯이
+    2. defaultProps 는 static으로
+    3. propType도 static으로 isRequied도 설정 가능.

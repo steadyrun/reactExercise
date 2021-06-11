@@ -3,7 +3,7 @@ import TestComponent from './TestComponent'
 export default class App2 extends Component {
     render() {
         return (
-            <TestComponent daysSince={1}/>
+            <TestComponent daysSince={2}/>
         )
     }
 }
